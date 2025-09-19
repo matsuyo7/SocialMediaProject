@@ -1,3 +1,11 @@
+/*
+This icludes font families we can use, width sizes, colors, and more.
+Example:
+  'dark-1': '#000000',
+This is a color name we defined with the hex number color, but instead
+of using the hex number in our code, we can use 'dark-1' instead.
+*/
+
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 
@@ -62,5 +70,7 @@ module.exports = {
       },
     },
   },
+
+  /* This is for adding animations */
   plugins: [require('tailwindcss-animate')],
 };

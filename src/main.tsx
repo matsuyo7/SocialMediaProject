@@ -1,6 +1,8 @@
 import ReactDOM from 'react-dom/client';
 import App from './App';
 
+// run npm run dev to start the app
+
 /* 
 A .tsx file is a typescript (.ts) file that contains JSX (Javascript XML)
 It is used in React applications.
