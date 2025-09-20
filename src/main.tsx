@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 // run npm run dev to start the app
@@ -19,5 +20,7 @@ or between different parts of a web application.
 
 // The starting point of our application
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <App /> // It is a App.tsx file that we make
+    <BrowserRouter> {/*This means the browser will handle the routing for our entire application*/}
+        <App /> {/*It is a App.tsx file that we make*/}
+    </BrowserRouter>
 )
